@@ -1,0 +1,9 @@
+there's an error on the
+schematic I have,  I just noticed I didn't correct it in the new schematic
+from the chan 2,3 schematic there's a wire that goes from the first tube's
+anode to the clean channel.   There's no coupling cap, and there most
+certainly has to be one.  I don't know what the original cap is,  22n should
+work fine.
+
+there's only one line outside the drawing  it goes from the coupling cap to
+the switch.   The values of the tone-pots are 250k
