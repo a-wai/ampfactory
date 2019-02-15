@@ -1,0 +1,3 @@
+[submodule "a-wai/Fat Bastard"]
+	path = a-wai/Fat Bastard
+	url = git@github.com:a-wai/fat_bastard.git
