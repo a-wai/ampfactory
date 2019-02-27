@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name Eddie-Baby-Custom-rescue)(type Legacy)(uri "${KIPRJMOD}/Eddie Baby Custom-rescue.lib")(options "")(descr ""))
+  (lib (name Eddie-Baby-Custom-PCB-rescue)(type Legacy)(uri "${KIPRJMOD}/Eddie Baby Custom PCB-rescue.lib")(options "")(descr ""))
+)

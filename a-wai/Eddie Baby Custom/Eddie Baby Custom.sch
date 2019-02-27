@@ -1,0 +1,2292 @@
+EESchema Schematic File Version 4
+LIBS:Eddie Baby Custom-cache
+EELAYER 26 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Eddie-Baby-Custom-rescue:ECC83 U2
+U 1 1 574B2E5A
+P 1600 4650
+F 0 "U2" H 1730 4960 50  0000 C CNN
+F 1 "ECC83" H 1950 4350 50  0000 C CNN
+F 2 "A-wai_Turrets:TUBE_TRIODE" H 1870 4250 50  0001 C CNN
+F 3 "" H 1600 4650 60  0000 C CNN
+	1    1600 4650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:ECC83 U1
+U 2 1 574B2EC5
+P 4625 1900
+F 0 "U1" H 4755 2210 50  0000 C CNN
+F 1 "ECC83" H 4975 1600 50  0000 C CNN
+F 2 "A-wai_Turrets:TUBE_TRIODE" H 4895 1500 50  0001 C CNN
+F 3 "" H 4625 1900 60  0000 C CNN
+	2    4625 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:ECC83 U2
+U 2 1 574B2F7E
+P 3675 4850
+F 0 "U2" H 3805 5160 50  0000 C CNN
+F 1 "ECC83" H 4025 4550 50  0000 C CNN
+F 2 "A-wai_Turrets:TUBE_TRIODE" H 3945 4450 50  0001 C CNN
+F 3 "" H 3675 4850 60  0000 C CNN
+	2    3675 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:ECC83 U3
+U 1 1 574B2FCF
+P 4775 4850
+F 0 "U3" H 4905 5160 50  0000 C CNN
+F 1 "ECC83" H 5125 4550 50  0000 C CNN
+F 2 "A-wai_Turrets:TUBE_TRIODE" H 5045 4450 50  0001 C CNN
+F 3 "" H 4775 4850 60  0000 C CNN
+	1    4775 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:ECC83 U3
+U 2 1 574B3018
+P 6375 4850
+F 0 "U3" H 6505 5160 50  0000 C CNN
+F 1 "ECC83" H 6075 5175 50  0000 C CNN
+F 2 "A-wai_Turrets:TUBE_TRIODE" H 6645 4450 50  0001 C CNN
+F 3 "" H 6375 4850 60  0000 C CNN
+	2    6375 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:ECC83 U1
+U 1 1 574B3071
+P 2000 2000
+F 0 "U1" H 2130 2310 50  0000 C CNN
+F 1 "ECC83" H 2350 1700 50  0000 C CNN
+F 2 "A-wai_Turrets:TUBE_TRIODE" H 2270 1600 50  0001 C CNN
+F 3 "" H 2000 2000 60  0000 C CNN
+	1    2000 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:G5V2 K1
+U 3 1 574B30CE
+P 4125 3350
+F 0 "K1" H 4125 3350 50  0000 L BNN
+F 1 "G5V2" H 4175 3465 50  0000 L BNN
+F 2 "A-wai_Misc:relay-G5V2" H 4125 3500 50  0001 C CNN
+F 3 "" H 4125 3350 60  0000 C CNN
+	3    4125 3350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:G5V2 K1
+U 2 1 574B3137
+P 5975 1650
+F 0 "K1" H 5975 1650 50  0000 L BNN
+F 1 "G5V2" H 6025 1765 50  0000 L BNN
+F 2 "A-wai_Misc:relay-G5V2" H 5975 1800 50  0001 C CNN
+F 3 "" H 5975 1650 60  0000 C CNN
+	2    5975 1650
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C3
+U 1 1 574B4E73
+P 1700 5300
+F 0 "C3" H 1725 5400 50  0000 L CNN
+F 1 "1µ" H 1725 5200 50  0000 L CNN
+F 2 "A-wai_Turrets:C_M150_105_100V" H 1738 5150 50  0001 C CNN
+F 3 "" H 1700 5300 50  0000 C CNN
+	1    1700 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:CP1 C2
+U 1 1 574B4EF8
+P 1275 7250
+F 0 "C2" H 1300 7350 50  0000 L CNN
+F 1 "33µ/450V" H 1300 7150 50  0000 L CNN
+F 2 "A-wai_Turrets:CPA_33uF_500V" H 1275 7250 50  0001 C CNN
+F 3 "" H 1275 7250 50  0000 C CNN
+	1    1275 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:D D1
+U 1 1 574B4FA1
+P 4575 6925
+F 0 "D1" H 4575 7025 50  0000 C CNN
+F 1 "1N4007" H 4575 6825 50  0000 C CNN
+F 2 "A-wai_Passive:DIODE" H 4575 6925 50  0001 C CNN
+F 3 "" H 4575 6925 50  0000 C CNN
+	1    4575 6925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R5
+U 1 1 574B502C
+P 1500 5300
+F 0 "R5" V 1580 5300 50  0000 C CNN
+F 1 "1.8k" V 1500 5300 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 1430 5300 50  0001 C CNN
+F 3 "" H 1500 5300 50  0000 C CNN
+	1    1500 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR01
+U 1 1 574B5081
+P 1500 5550
+F 0 "#PWR01" H 1500 5550 30  0001 C CNN
+F 1 "GND" H 1500 5480 30  0001 C CNN
+F 2 "" H 1500 5550 60  0000 C CNN
+F 3 "" H 1500 5550 60  0000 C CNN
+	1    1500 5550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R6
+U 1 1 574B580C
+P 1600 4000
+F 0 "R6" V 1525 4000 50  0000 C CNN
+F 1 "220k" V 1600 4000 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 1530 4000 50  0001 C CNN
+F 3 "" H 1600 4000 50  0000 C CNN
+	1    1600 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C5
+U 1 1 574B587E
+P 1950 4200
+F 0 "C5" H 1975 4300 50  0000 L CNN
+F 1 "22n" H 1975 4100 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_223_400V" H 1988 4050 50  0001 C CNN
+F 3 "" H 1950 4200 50  0000 C CNN
+	1    1950 4200
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R9
+U 1 1 574B5B1D
+P 2500 4350
+F 0 "R9" V 2580 4350 50  0000 C CNN
+F 1 "470k" V 2500 4350 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 2430 4350 50  0001 C CNN
+F 3 "" H 2500 4350 50  0000 C CNN
+	1    2500 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C6
+U 1 1 574B5B8B
+P 2700 4350
+F 0 "C6" H 2725 4450 50  0000 L CNN
+F 1 "2.2n" H 2725 4250 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_472_400V" H 2738 4200 50  0001 C CNN
+F 3 "" H 2700 4350 50  0000 C CNN
+	1    2700 4350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R12
+U 1 1 574B5E51
+P 3575 5500
+F 0 "R12" V 3655 5500 50  0000 C CNN
+F 1 "1.8k" V 3575 5500 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 3505 5500 50  0001 C CNN
+F 3 "" H 3575 5500 50  0000 C CNN
+	1    3575 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C7
+U 1 1 574B5EE5
+P 3775 5500
+F 0 "C7" H 3800 5600 50  0000 L CNN
+F 1 "1µ" H 3800 5400 50  0000 L CNN
+F 2 "A-wai_Turrets:C_M150_105_100V" H 3813 5350 50  0001 C CNN
+F 3 "" H 3775 5500 50  0000 C CNN
+	1    3775 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR02
+U 1 1 574B5F74
+P 3575 5750
+F 0 "#PWR02" H 3575 5750 30  0001 C CNN
+F 1 "GND" H 3575 5680 30  0001 C CNN
+F 2 "" H 3575 5750 60  0000 C CNN
+F 3 "" H 3575 5750 60  0000 C CNN
+	1    3575 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R13
+U 1 1 574B602A
+P 3675 4200
+F 0 "R13" V 3600 4200 50  0000 C CNN
+F 1 "100k" V 3675 4200 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 3605 4200 50  0001 C CNN
+F 3 "" H 3675 4200 50  0000 C CNN
+	1    3675 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C8
+U 1 1 574B63EC
+P 3975 4400
+F 0 "C8" H 4000 4500 50  0000 L CNN
+F 1 "22n" H 4000 4300 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_223_400V" H 4013 4250 50  0001 C CNN
+F 3 "" H 3975 4400 50  0000 C CNN
+	1    3975 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R14
+U 1 1 574B647F
+P 4325 4550
+F 0 "R14" V 4405 4550 50  0000 C CNN
+F 1 "470k" V 4325 4550 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 4255 4550 50  0001 C CNN
+F 3 "" H 4325 4550 50  0000 C CNN
+	1    4325 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R15
+U 1 1 574B653F
+P 4325 5200
+F 0 "R15" V 4405 5200 50  0000 C CNN
+F 1 "1M" V 4325 5200 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 4255 5200 50  0001 C CNN
+F 3 "" H 4325 5200 50  0000 C CNN
+	1    4325 5200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR03
+U 1 1 574B65AA
+P 4325 5750
+F 0 "#PWR03" H 4325 5750 30  0001 C CNN
+F 1 "GND" H 4325 5680 30  0001 C CNN
+F 2 "" H 4325 5750 60  0000 C CNN
+F 3 "" H 4325 5750 60  0000 C CNN
+	1    4325 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R18
+U 1 1 574B6683
+P 4775 4200
+F 0 "R18" V 4700 4200 50  0000 C CNN
+F 1 "100k" V 4775 4200 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 4705 4200 50  0001 C CNN
+F 3 "" H 4775 4200 50  0000 C CNN
+	1    4775 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R16
+U 1 1 574B670D
+P 4675 5500
+F 0 "R16" V 4755 5500 50  0000 C CNN
+F 1 "39k" V 4675 5500 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 4605 5500 50  0001 C CNN
+F 3 "" H 4675 5500 50  0000 C CNN
+	1    4675 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR04
+U 1 1 574B6794
+P 4675 5750
+F 0 "#PWR04" H 4675 5750 30  0001 C CNN
+F 1 "GND" H 4675 5680 30  0001 C CNN
+F 2 "" H 4675 5750 60  0000 C CNN
+F 3 "" H 4675 5750 60  0000 C CNN
+	1    4675 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C9
+U 1 1 574B68CB
+P 5125 4400
+F 0 "C9" H 5150 4500 50  0000 L CNN
+F 1 "22n" H 5150 4300 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_223_400V" H 5163 4250 50  0001 C CNN
+F 3 "" H 5125 4400 50  0000 C CNN
+	1    5125 4400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R23
+U 1 1 574B6977
+P 6275 5500
+F 0 "R23" V 6355 5500 50  0000 C CNN
+F 1 "1.8k" V 6275 5500 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 6205 5500 50  0001 C CNN
+F 3 "" H 6275 5500 50  0000 C CNN
+	1    6275 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C12
+U 1 1 574B6A16
+P 6475 5500
+F 0 "C12" H 6500 5600 50  0000 L CNN
+F 1 "1µ" H 6500 5400 50  0000 L CNN
+F 2 "A-wai_Turrets:C_M150_105_100V" H 6513 5350 50  0001 C CNN
+F 3 "" H 6475 5500 50  0000 C CNN
+	1    6475 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR05
+U 1 1 574B6ABC
+P 5375 5750
+F 0 "#PWR05" H 5375 5750 30  0001 C CNN
+F 1 "GND" H 5375 5680 30  0001 C CNN
+F 2 "" H 5375 5750 60  0000 C CNN
+F 3 "" H 5375 5750 60  0000 C CNN
+	1    5375 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R20
+U 1 1 574B6EF3
+P 5375 5350
+F 0 "R20" V 5455 5350 50  0000 C CNN
+F 1 "330k" V 5375 5350 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 5305 5350 50  0001 C CNN
+F 3 "" H 5375 5350 50  0000 C CNN
+	1    5375 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C11
+U 1 1 574B6F81
+P 5575 5350
+F 0 "C11" H 5600 5450 50  0000 L CNN
+F 1 "1n" H 5600 5250 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_472_400V" H 5613 5200 50  0001 C CNN
+F 3 "" H 5575 5350 50  0000 C CNN
+	1    5575 5350
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR06
+U 1 1 574B7006
+P 6275 5750
+F 0 "#PWR06" H 6275 5750 30  0001 C CNN
+F 1 "GND" H 6275 5680 30  0001 C CNN
+F 2 "" H 6275 5750 60  0000 C CNN
+F 3 "" H 6275 5750 60  0000 C CNN
+	1    6275 5750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R24
+U 1 1 574B71E6
+P 6375 4200
+F 0 "R24" V 6300 4200 50  0000 C CNN
+F 1 "220k" V 6375 4200 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 6305 4200 50  0001 C CNN
+F 3 "" H 6375 4200 50  0000 C CNN
+	1    6375 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6375 4350 6375 4450
+Wire Wire Line
+	6375 3900 6375 4050
+Wire Wire Line
+	6275 5250 6275 5350
+Wire Wire Line
+	6275 5350 6475 5350
+Wire Wire Line
+	6475 5650 6275 5650
+Wire Wire Line
+	6275 5650 6275 5750
+Wire Wire Line
+	5375 5750 5375 5500
+Wire Wire Line
+	5375 5500 5575 5500
+Wire Wire Line
+	5375 5200 5375 4850
+Wire Wire Line
+	5375 4400 5275 4400
+Wire Wire Line
+	4975 4400 4775 4400
+Wire Wire Line
+	4775 4350 4775 4400
+Connection ~ 4775 4400
+Wire Wire Line
+	4675 5250 4675 5350
+Wire Wire Line
+	4675 5650 4675 5750
+Wire Wire Line
+	4325 4400 4125 4400
+Wire Wire Line
+	3825 4400 3675 4400
+Wire Wire Line
+	3675 4350 3675 4400
+Connection ~ 3675 4400
+Wire Wire Line
+	3575 5350 3575 5250
+Wire Wire Line
+	3775 5350 3575 5350
+Wire Wire Line
+	3775 5650 3575 5650
+Wire Wire Line
+	3575 5650 3575 5750
+Wire Wire Line
+	5375 4850 5575 4850
+Connection ~ 5375 4850
+Wire Wire Line
+	2500 4500 2500 4700
+Wire Wire Line
+	2500 4500 2700 4500
+Wire Wire Line
+	2100 4200 2700 4200
+Wire Wire Line
+	1800 4200 1600 4200
+Wire Wire Line
+	1600 4150 1600 4200
+Connection ~ 1600 4200
+Wire Wire Line
+	1500 5050 1500 5150
+Wire Wire Line
+	1500 5150 1700 5150
+Wire Wire Line
+	1500 5450 1700 5450
+Wire Wire Line
+	1500 5450 1500 5550
+$Comp
+L Eddie-Baby-Custom-rescue:F+ #PWR07
+U 1 1 574B9072
+P 1600 3750
+F 0 "#PWR07" H 1600 3700 20  0001 C CNN
+F 1 "F+" H 1600 3850 30  0000 C CNN
+F 2 "" H 1600 3750 60  0000 C CNN
+F 3 "" H 1600 3750 60  0000 C CNN
+	1    1600 3750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:E+ #PWR08
+U 1 1 574B921E
+P 6375 3900
+F 0 "#PWR08" H 6375 3850 20  0001 C CNN
+F 1 "E+" H 6375 4000 30  0000 C CNN
+F 2 "" H 6375 3900 60  0000 C CNN
+F 3 "" H 6375 3900 60  0000 C CNN
+	1    6375 3900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:E+ #PWR09
+U 1 1 574B9276
+P 4775 3950
+F 0 "#PWR09" H 4775 3900 20  0001 C CNN
+F 1 "E+" H 4775 4050 30  0000 C CNN
+F 2 "" H 4775 3950 60  0000 C CNN
+F 3 "" H 4775 3950 60  0000 C CNN
+	1    4775 3950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:D+ #PWR010
+U 1 1 574B92CE
+P 7275 4000
+F 0 "#PWR010" H 7275 3950 20  0001 C CNN
+F 1 "D+" H 7275 4100 30  0000 C CNN
+F 2 "" H 7275 4000 60  0000 C CNN
+F 3 "" H 7275 4000 60  0000 C CNN
+	1    7275 4000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4775 3950 4775 4050
+Wire Wire Line
+	3675 3950 3675 4050
+Wire Wire Line
+	1600 3750 1600 3850
+Connection ~ 1700 5450
+$Comp
+L Eddie-Baby-Custom-rescue:C C10
+U 1 1 574BA31A
+P 5075 1450
+F 0 "C10" H 5100 1550 50  0000 L CNN
+F 1 "47n" H 5100 1350 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_473_400V" H 5113 1300 50  0001 C CNN
+F 3 "" H 5075 1450 50  0000 C CNN
+	1    5075 1450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R21
+U 1 1 574BA464
+P 5325 1900
+F 0 "R21" V 5405 1900 50  0000 C CNN
+F 1 "2.2M" V 5325 1900 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 5255 1900 50  0001 C CNN
+F 3 "" H 5325 1900 50  0000 C CNN
+	1    5325 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R17
+U 1 1 574BA582
+P 4525 2550
+F 0 "R17" V 4605 2550 50  0000 C CNN
+F 1 "10k" V 4525 2550 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 4455 2550 50  0001 C CNN
+F 3 "" H 4525 2550 50  0000 C CNN
+	1    4525 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR011
+U 1 1 574BA755
+P 4525 2800
+F 0 "#PWR011" H 4525 2800 30  0001 C CNN
+F 1 "GND" H 4525 2730 30  0001 C CNN
+F 2 "" H 4525 2800 60  0000 C CNN
+F 3 "" H 4525 2800 60  0000 C CNN
+	1    4525 2800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4525 2700 4525 2800
+Wire Wire Line
+	4525 2400 4525 2300
+$Comp
+L Eddie-Baby-Custom-rescue:R R19
+U 1 1 574BAED6
+P 4625 1250
+F 0 "R19" V 4705 1250 50  0000 C CNN
+F 1 "100k" V 4625 1250 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 4555 1250 50  0001 C CNN
+F 3 "" H 4625 1250 50  0000 C CNN
+	1    4625 1250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4625 1000 4625 1100
+Wire Wire Line
+	4625 1400 4625 1450
+Wire Wire Line
+	4625 1450 4925 1450
+Connection ~ 4625 1450
+Wire Wire Line
+	5325 1450 5325 1750
+Wire Wire Line
+	5325 2050 5325 2700
+Wire Wire Line
+	5325 2700 4525 2700
+Connection ~ 5325 1450
+Wire Wire Line
+	5775 1850 5775 3550
+$Comp
+L Eddie-Baby-Custom-rescue:R R26
+U 1 1 574BC612
+P 6175 2000
+F 0 "R26" V 6255 2000 50  0000 C CNN
+F 1 "2.2M" V 6175 2000 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 6105 2000 50  0001 C CNN
+F 3 "" H 6175 2000 50  0000 C CNN
+	1    6175 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6075 1650 6175 1650
+Wire Wire Line
+	6175 1650 6175 1850
+Connection ~ 6175 1650
+Wire Wire Line
+	6175 2150 6175 2625
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR012
+U 1 1 574BCF5F
+P 6175 2625
+F 0 "#PWR012" H 6175 2625 30  0001 C CNN
+F 1 "GND" H 6175 2555 30  0001 C CNN
+F 2 "" H 6175 2625 60  0000 C CNN
+F 3 "" H 6175 2625 60  0000 C CNN
+	1    6175 2625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:ECC83 U4
+U 1 1 574BD1E8
+P 7275 4850
+F 0 "U4" H 7405 5160 50  0000 C CNN
+F 1 "ECC83" H 7475 4450 50  0000 C CNN
+F 2 "A-wai_Turrets:TUBE_TRIODE" H 7545 4450 50  0001 C CNN
+F 3 "" H 7275 4850 60  0000 C CNN
+	1    7275 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:ECC83 U4
+U 2 1 574BD4D1
+P 8525 4850
+F 0 "U4" H 8655 5160 50  0000 C CNN
+F 1 "ECC83" H 8700 4450 50  0000 C CNN
+F 2 "A-wai_Turrets:TUBE_TRIODE" H 8795 4450 50  0001 C CNN
+F 3 "" H 8525 4850 60  0000 C CNN
+	2    8525 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C+ #PWR013
+U 1 1 574C3324
+P 6950 1175
+F 0 "#PWR013" H 6950 1125 20  0001 C CNN
+F 1 "C+" H 6950 1275 30  0000 C CNN
+F 2 "" H 6950 1175 60  0000 C CNN
+F 3 "" H 6950 1175 60  0000 C CNN
+	1    6950 1175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5575 5200 5575 4850
+Connection ~ 5575 4850
+$Comp
+L Eddie-Baby-Custom-rescue:G5V2 K1
+U 1 1 574C7B02
+P 4575 7275
+F 0 "K1" H 4575 7275 50  0000 L BNN
+F 1 "G5V2" H 4625 7390 50  0000 L BNN
+F 2 "A-wai_Misc:relay-G5V2" H 4575 7425 50  0001 C CNN
+F 3 "" H 4575 7275 60  0000 C CNN
+	1    4575 7275
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:CONN_01X01 P2
+U 1 1 574C80FD
+P 5025 6925
+F 0 "P2" H 5025 7025 50  0000 C CNN
+F 1 "RLY-" V 5125 6925 50  0000 C CNN
+F 2 "A-wai_Turrets:TURRET" H 5025 6925 50  0001 C CNN
+F 3 "" H 5025 6925 50  0000 C CNN
+	1    5025 6925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:CONN_01X01 P1
+U 1 1 574C827E
+P 4125 6925
+F 0 "P1" H 4125 7025 50  0000 C CNN
+F 1 "RLY+" V 4225 6925 50  0000 C CNN
+F 2 "A-wai_Turrets:TURRET" H 4125 6925 50  0001 C CNN
+F 3 "" H 4125 6925 50  0000 C CNN
+	1    4125 6925
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	4325 6925 4375 6925
+Wire Wire Line
+	4375 6925 4375 7275
+Connection ~ 4375 6925
+Wire Wire Line
+	4725 6925 4775 6925
+Wire Wire Line
+	4775 6925 4775 7275
+Connection ~ 4775 6925
+$Comp
+L Eddie-Baby-Custom-rescue:CP1 C1
+U 1 1 574C9200
+P 775 7250
+F 0 "C1" H 800 7350 50  0000 L CNN
+F 1 "22µ/450V" H 800 7150 50  0000 L CNN
+F 2 "A-wai_Turrets:CPA_22uF_450V" H 775 7250 50  0001 C CNN
+F 3 "" H 775 7250 50  0000 C CNN
+	1    775  7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R2
+U 1 1 574C9728
+P 1025 6900
+F 0 "R2" V 1105 6900 50  0000 C CNN
+F 1 "10k" V 1025 6900 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 955 6900 50  0001 C CNN
+F 3 "" H 1025 6900 50  0000 C CNN
+	1    1025 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:F+ #PWR014
+U 1 1 574C9978
+P 775 6800
+F 0 "#PWR014" H 775 6750 20  0001 C CNN
+F 1 "F+" H 775 6900 30  0000 C CNN
+F 2 "" H 775 6800 60  0000 C CNN
+F 3 "" H 775 6800 60  0000 C CNN
+	1    775  6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R4
+U 1 1 574C9F89
+P 1525 6900
+F 0 "R4" V 1605 6900 50  0000 C CNN
+F 1 "10k" V 1525 6900 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 1455 6900 50  0001 C CNN
+F 3 "" H 1525 6900 50  0000 C CNN
+	1    1525 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R7
+U 1 1 574CA094
+P 2025 6900
+F 0 "R7" V 2105 6900 50  0000 C CNN
+F 1 "10k/2W" V 2025 6900 50  0000 C CNN
+F 2 "A-wai_Turrets:R_2W" V 1955 6900 50  0001 C CNN
+F 3 "" H 2025 6900 50  0000 C CNN
+	1    2025 6900
+	0    1    1    0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:CP1 C4
+U 1 1 574CA1A0
+P 1775 7250
+F 0 "C4" H 1800 7350 50  0000 L CNN
+F 1 "47µ/450V" H 1800 7150 50  0000 L CNN
+F 2 "A-wai_Turrets:CPA_47uF_450V" H 1775 7250 50  0001 C CNN
+F 3 "" H 1775 7250 50  0000 C CNN
+	1    1775 7250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:E+ #PWR015
+U 1 1 574CA52A
+P 1275 6800
+F 0 "#PWR015" H 1275 6750 20  0001 C CNN
+F 1 "E+" H 1275 6900 30  0000 C CNN
+F 2 "" H 1275 6800 60  0000 C CNN
+F 3 "" H 1275 6800 60  0000 C CNN
+	1    1275 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:D+ #PWR016
+U 1 1 574CA622
+P 1775 6800
+F 0 "#PWR016" H 1775 6750 20  0001 C CNN
+F 1 "D+" H 1775 6900 30  0000 C CNN
+F 2 "" H 1775 6800 60  0000 C CNN
+F 3 "" H 1775 6800 60  0000 C CNN
+	1    1775 6800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C+ #PWR017
+U 1 1 574CA71A
+P 2275 6800
+F 0 "#PWR017" H 2275 6750 20  0001 C CNN
+F 1 "C+" H 2275 6900 30  0000 C CNN
+F 2 "" H 2275 6800 60  0000 C CNN
+F 3 "" H 2275 6800 60  0000 C CNN
+	1    2275 6800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	775  6800 775  6900
+Wire Wire Line
+	775  6900 875  6900
+Connection ~ 775  6900
+Wire Wire Line
+	1175 6900 1275 6900
+Wire Wire Line
+	1275 6800 1275 6900
+Connection ~ 1275 6900
+Wire Wire Line
+	1675 6900 1775 6900
+Wire Wire Line
+	1775 6800 1775 6900
+Connection ~ 1775 6900
+Wire Wire Line
+	2175 6900 2275 6900
+Wire Wire Line
+	2275 6800 2275 6900
+Connection ~ 2275 6900
+Wire Wire Line
+	775  7400 1275 7400
+Connection ~ 1275 7400
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR018
+U 1 1 574CB777
+P 775 7500
+F 0 "#PWR018" H 775 7500 30  0001 C CNN
+F 1 "GND" H 775 7430 30  0001 C CNN
+F 2 "" H 775 7500 60  0000 C CNN
+F 3 "" H 775 7500 60  0000 C CNN
+	1    775  7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	775  7500 775  7400
+Wire Wire Line
+	4325 5750 4325 5350
+Wire Wire Line
+	4325 4850 4475 4850
+Connection ~ 4325 4850
+Wire Wire Line
+	4325 4700 4325 4850
+$Comp
+L Eddie-Baby-Custom-rescue:EL84 U6
+U 1 1 57D3E2BB
+P 9875 1200
+F 0 "U6" H 9975 1600 50  0000 C CNN
+F 1 "6V6" H 10175 900 50  0000 C CNN
+F 2 "A-wai_Turrets:TUBE_PENTODE" H 10175 800 50  0001 C CNN
+F 3 "" H 9875 1200 60  0000 C CNN
+	1    9875 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:CONN_01X01 P11
+U 1 1 57D411D0
+P 10475 1150
+F 0 "P11" H 10475 1250 50  0000 C CNN
+F 1 "Ug2" V 10575 1150 50  0000 C CNN
+F 2 "A-wai_Turrets:TURRET" H 10475 1150 50  0001 C CNN
+F 3 "" H 10475 1150 50  0000 C CNN
+	1    10475 1150
+	1    0    0    1   
+$EndComp
+Text Label 10250 1150 1    60   ~ 0
+HT_G2
+Text Label 8300 1250 1    60   ~ 0
+HT_U5B
+Text Label 6525 4450 1    60   ~ 0
+HT_U3B
+Text Label 4950 4400 1    60   ~ 0
+HT_U3A
+Text Label 3825 4400 1    60   ~ 0
+HT_U2B
+Text Label 1775 4200 1    60   ~ 0
+HT_U2A
+Text Label 4875 1450 1    60   ~ 0
+HT_U1B
+NoConn ~ 1300 4650
+$Comp
+L Eddie-Baby-Custom-rescue:Earth #PWR019
+U 1 1 57D572D0
+P 6625 7500
+F 0 "#PWR019" H 6625 7250 50  0001 C CNN
+F 1 "Earth" H 6625 7350 50  0001 C CNN
+F 2 "" H 6625 7500 50  0000 C CNN
+F 3 "" H 6625 7500 50  0000 C CNN
+	1    6625 7500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:CONN_01X01 P14
+U 1 1 57D573C9
+P 6625 7200
+F 0 "P14" H 6625 7300 50  0000 C CNN
+F 1 "EARTH" V 6725 7200 50  0000 C CNN
+F 2 "A-wai_Turrets:TURRET" H 6625 7200 50  0001 C CNN
+F 3 "" H 6625 7200 50  0000 C CNN
+	1    6625 7200
+	0    1    -1   0   
+$EndComp
+Wire Wire Line
+	6625 7500 6625 7400
+Text Label 6625 7475 0    60   ~ 0
+EARTH
+$Comp
+L Eddie-Baby-Custom-rescue:JUMPER JP1
+U 1 1 57EAA4AE
+P 6175 7400
+F 0 "JP1" H 6175 7550 50  0000 C CNN
+F 1 "JUMPER" H 6175 7320 50  0000 C CNN
+F 2 "Freetronics:SJ_OPEN" H 6175 7400 50  0001 C CNN
+F 3 "" H 6175 7400 50  0000 C CNN
+	1    6175 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR020
+U 1 1 57EAA8C4
+P 5875 7500
+F 0 "#PWR020" H 5875 7500 30  0001 C CNN
+F 1 "GND" H 5875 7430 30  0001 C CNN
+F 2 "" H 5875 7500 60  0000 C CNN
+F 3 "" H 5875 7500 60  0000 C CNN
+	1    5875 7500
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5875 7500 5875 7400
+Wire Wire Line
+	6625 7400 6475 7400
+$Comp
+L Eddie-Baby-Custom-rescue:C C16
+U 1 1 58BF2A71
+P 6700 4450
+F 0 "C16" H 6725 4550 50  0000 L CNN
+F 1 "22n" H 6725 4350 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_223_400V" H 6738 4300 50  0001 C CNN
+F 3 "" H 6700 4450 50  0000 C CNN
+	1    6700 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R25
+U 1 1 58BF2D5C
+P 6850 4675
+F 0 "R25" V 6930 4675 50  0000 C CNN
+F 1 "1M" V 6850 4675 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 6780 4675 50  0001 C CNN
+F 3 "" H 6850 4675 50  0000 C CNN
+	1    6850 4675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R27
+U 1 1 58BF2EF0
+P 6850 5150
+F 0 "R27" V 6930 5150 50  0000 C CNN
+F 1 "100k" V 6850 5150 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 6780 5150 50  0001 C CNN
+F 3 "" H 6850 5150 50  0000 C CNN
+	1    6850 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR021
+U 1 1 58BF32D1
+P 6850 5750
+F 0 "#PWR021" H 6850 5750 30  0001 C CNN
+F 1 "GND" H 6850 5680 30  0001 C CNN
+F 2 "" H 6850 5750 60  0000 C CNN
+F 3 "" H 6850 5750 60  0000 C CNN
+	1    6850 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 5750 6850 5300
+Wire Wire Line
+	6850 5000 6850 4850
+Wire Wire Line
+	6850 4525 6850 4450
+$Comp
+L Eddie-Baby-Custom-rescue:R R31
+U 1 1 58BF378B
+P 7175 5500
+F 0 "R31" V 7255 5500 50  0000 C CNN
+F 1 "2.2k" V 7175 5500 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 7105 5500 50  0001 C CNN
+F 3 "" H 7175 5500 50  0000 C CNN
+	1    7175 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R32
+U 1 1 58BF38E7
+P 7275 4200
+F 0 "R32" V 7200 4200 50  0000 C CNN
+F 1 "220k" V 7275 4200 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 7205 4200 50  0001 C CNN
+F 3 "" H 7275 4200 50  0000 C CNN
+	1    7275 4200
+	1    0    0    -1  
+$EndComp
+Connection ~ 6850 4850
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR022
+U 1 1 58BF3B3C
+P 7175 5750
+F 0 "#PWR022" H 7175 5750 30  0001 C CNN
+F 1 "GND" H 7175 5680 30  0001 C CNN
+F 2 "" H 7175 5750 60  0000 C CNN
+F 3 "" H 7175 5750 60  0000 C CNN
+	1    7175 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7175 5750 7175 5650
+Wire Wire Line
+	7175 5350 7175 5250
+Wire Wire Line
+	7275 4350 7275 4450
+$Comp
+L Eddie-Baby-Custom-rescue:D+ #PWR023
+U 1 1 58BF468E
+P 8525 4000
+F 0 "#PWR023" H 8525 3950 20  0001 C CNN
+F 1 "D+" H 8525 4100 30  0000 C CNN
+F 2 "" H 8525 4000 60  0000 C CNN
+F 3 "" H 8525 4000 60  0000 C CNN
+	1    8525 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C18
+U 1 1 58BF48AF
+P 7600 4450
+F 0 "C18" H 7625 4550 50  0000 L CNN
+F 1 "22n" H 7625 4350 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_223_400V" H 7638 4300 50  0001 C CNN
+F 3 "" H 7600 4450 50  0000 C CNN
+	1    7600 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R35
+U 1 1 58BF4CEF
+P 8100 4175
+F 0 "R35" V 8180 4175 50  0000 C CNN
+F 1 "1M" V 8100 4175 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 8030 4175 50  0001 C CNN
+F 3 "" H 8100 4175 50  0000 C CNN
+	1    8100 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R36
+U 1 1 58BF4E4A
+P 8100 5150
+F 0 "R36" V 8180 5150 50  0000 C CNN
+F 1 "1M" V 8100 5150 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 8030 5150 50  0001 C CNN
+F 3 "" H 8100 5150 50  0000 C CNN
+	1    8100 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R34
+U 1 1 58BF5AC6
+P 7950 4450
+F 0 "R34" V 8030 4450 50  0000 C CNN
+F 1 "1M" V 7950 4450 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 7880 4450 50  0001 C CNN
+F 3 "" H 7950 4450 50  0000 C CNN
+	1    7950 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR024
+U 1 1 58BF60E0
+P 8100 5750
+F 0 "#PWR024" H 8100 5750 30  0001 C CNN
+F 1 "GND" H 8100 5680 30  0001 C CNN
+F 2 "" H 8100 5750 60  0000 C CNN
+F 3 "" H 8100 5750 60  0000 C CNN
+	1    8100 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6375 4450 6550 4450
+Text Label 7425 4450 1    60   ~ 0
+HT_U4A
+Wire Wire Line
+	7275 4450 7450 4450
+Wire Wire Line
+	7800 4450 7750 4450
+Wire Wire Line
+	8100 4325 8100 4450
+Connection ~ 8100 4450
+Wire Wire Line
+	8100 5300 8100 5750
+Connection ~ 8100 4850
+$Comp
+L Eddie-Baby-Custom-rescue:R R39
+U 1 1 58BF7AFA
+P 8525 4200
+F 0 "R39" V 8450 4200 50  0000 C CNN
+F 1 "100k" V 8525 4200 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 8455 4200 50  0001 C CNN
+F 3 "" H 8525 4200 50  0000 C CNN
+	1    8525 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8525 4000 8525 4050
+Wire Wire Line
+	8525 4350 8525 4450
+Text Label 8675 4450 1    60   ~ 0
+HT_U4B
+$Comp
+L Eddie-Baby-Custom-rescue:C C21
+U 1 1 58BF86B0
+P 8875 4450
+F 0 "C21" H 8900 4550 50  0000 L CNN
+F 1 "22n" H 8900 4350 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_223_400V" H 8913 4300 50  0001 C CNN
+F 3 "" H 8875 4450 50  0000 C CNN
+	1    8875 4450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8525 4450 8725 4450
+Wire Wire Line
+	9025 4450 9025 3775
+Wire Wire Line
+	8100 3775 8100 4025
+$Comp
+L Eddie-Baby-Custom-rescue:R R37
+U 1 1 58BF91C5
+P 8425 5500
+F 0 "R37" V 8505 5500 50  0000 C CNN
+F 1 "2.2k" V 8425 5500 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 8355 5500 50  0001 C CNN
+F 3 "" H 8425 5500 50  0000 C CNN
+	1    8425 5500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR025
+U 1 1 58BF9351
+P 8425 5750
+F 0 "#PWR025" H 8425 5750 30  0001 C CNN
+F 1 "GND" H 8425 5680 30  0001 C CNN
+F 2 "" H 8425 5750 60  0000 C CNN
+F 3 "" H 8425 5750 60  0000 C CNN
+	1    8425 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8425 5750 8425 5650
+Wire Wire Line
+	8425 5350 8425 5250
+Wire Wire Line
+	7275 4050 7275 4000
+$Comp
+L Eddie-Baby-Custom-rescue:F+ #PWR026
+U 1 1 58BF9D41
+P 3675 3950
+F 0 "#PWR026" H 3675 3900 20  0001 C CNN
+F 1 "F+" H 3675 4050 30  0000 C CNN
+F 2 "" H 3675 3950 60  0000 C CNN
+F 3 "" H 3675 3950 60  0000 C CNN
+	1    3675 3950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 4850 6975 4850
+Wire Wire Line
+	8100 4850 8225 4850
+Wire Wire Line
+	9025 3775 8100 3775
+$Comp
+L Eddie-Baby-Custom-rescue:R R3
+U 1 1 58BFD27E
+P 2000 1375
+F 0 "R3" V 1925 1375 50  0000 C CNN
+F 1 "100k" V 2000 1375 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 1930 1375 50  0001 C CNN
+F 3 "" H 2000 1375 50  0000 C CNN
+	1    2000 1375
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1700 2000
+$Comp
+L Eddie-Baby-Custom-rescue:R R1
+U 1 1 58BFD526
+P 1900 2675
+F 0 "R1" V 1980 2675 50  0000 C CNN
+F 1 "1.5k" V 1900 2675 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 1830 2675 50  0001 C CNN
+F 3 "" H 1900 2675 50  0000 C CNN
+	1    1900 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:CP1 C13
+U 1 1 58BFD8B4
+P 2125 2675
+F 0 "C13" H 2150 2775 50  0000 L CNN
+F 1 "22µ" H 2150 2575 50  0000 L CNN
+F 2 "A-wai_Turrets:CPA_22uF_63V" H 2125 2675 50  0001 C CNN
+F 3 "" H 2125 2675 50  0000 C CNN
+	1    2125 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR027
+U 1 1 58BFDB92
+P 1900 2900
+F 0 "#PWR027" H 1900 2900 30  0001 C CNN
+F 1 "GND" H 1900 2830 30  0001 C CNN
+F 2 "" H 1900 2900 60  0000 C CNN
+F 3 "" H 1900 2900 60  0000 C CNN
+	1    1900 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 2900 1900 2825
+Wire Wire Line
+	1900 2825 2125 2825
+Wire Wire Line
+	2125 2525 1900 2525
+Wire Wire Line
+	1900 2525 1900 2400
+Wire Wire Line
+	2000 1525 2000 1600
+$Comp
+L Eddie-Baby-Custom-rescue:G+ #PWR028
+U 1 1 58BFEB27
+P 2000 1125
+F 0 "#PWR028" H 2000 975 50  0001 C CNN
+F 1 "G+" H 2000 1275 50  0000 C CNN
+F 2 "" H 2000 1125 50  0000 C CNN
+F 3 "" H 2000 1125 50  0000 C CNN
+	1    2000 1125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:G+ #PWR029
+U 1 1 58BFEC5F
+P 4625 1000
+F 0 "#PWR029" H 4625 850 50  0001 C CNN
+F 1 "G+" H 4625 1150 50  0000 C CNN
+F 2 "" H 4625 1000 50  0000 C CNN
+F 3 "" H 4625 1000 50  0000 C CNN
+	1    4625 1000
+	1    0    0    -1  
+$EndComp
+Text Label 2175 1600 1    60   ~ 0
+HT_U1A
+Wire Wire Line
+	2000 1225 2000 1125
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR030
+U 1 1 58C000A1
+P 4450 3350
+F 0 "#PWR030" H 4450 3350 30  0001 C CNN
+F 1 "GND" H 4450 3280 30  0001 C CNN
+F 2 "" H 4450 3350 60  0000 C CNN
+F 3 "" H 4450 3350 60  0000 C CNN
+	1    4450 3350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4225 3350 4450 3350
+$Comp
+L Eddie-Baby-Custom-rescue:R R41
+U 1 1 58C00DB9
+P 9225 4450
+F 0 "R41" V 9305 4450 50  0000 C CNN
+F 1 "82k" V 9225 4450 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 9155 4450 50  0001 C CNN
+F 3 "" H 9225 4450 50  0000 C CNN
+	1    9225 4450
+	0    1    1    0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R42
+U 1 1 58C00F48
+P 9375 4975
+F 0 "R42" V 9455 4975 50  0000 C CNN
+F 1 "47k" V 9375 4975 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 9305 4975 50  0001 C CNN
+F 3 "" H 9375 4975 50  0000 C CNN
+	1    9375 4975
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R43
+U 1 1 58C010EA
+P 9575 4775
+F 0 "R43" V 9655 4775 50  0000 C CNN
+F 1 "33k" V 9575 4775 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 9505 4775 50  0001 C CNN
+F 3 "" H 9575 4775 50  0000 C CNN
+	1    9575 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C23
+U 1 1 58C01259
+P 9575 5175
+F 0 "C23" H 9600 5275 50  0000 L CNN
+F 1 "10n" H 9600 5075 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_103_400V" H 9613 5025 50  0001 C CNN
+F 3 "" H 9575 5175 50  0000 C CNN
+	1    9575 5175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9075 4450 9025 4450
+Wire Wire Line
+	9375 4450 9375 4825
+Wire Wire Line
+	9375 4450 9575 4450
+Wire Wire Line
+	9575 4450 9575 4625
+Wire Wire Line
+	9575 4925 9575 5025
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR031
+U 1 1 58C01C14
+P 9375 5750
+F 0 "#PWR031" H 9375 5750 30  0001 C CNN
+F 1 "GND" H 9375 5680 30  0001 C CNN
+F 2 "" H 9375 5750 60  0000 C CNN
+F 3 "" H 9375 5750 60  0000 C CNN
+	1    9375 5750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9375 5125 9375 5750
+Wire Wire Line
+	9575 5325 9575 5750
+Wire Wire Line
+	9375 5750 9575 5750
+Connection ~ 9575 4450
+Connection ~ 9575 5750
+Wire Wire Line
+	1900 2900 3025 2900
+Wire Wire Line
+	5225 1450 5325 1450
+$Comp
+L Eddie-Baby-Custom-rescue:ECC83 U5
+U 1 1 58C05B76
+P 6950 1650
+F 0 "U5" H 7080 1960 50  0000 C CNN
+F 1 "ECC83" H 7300 1350 50  0000 C CNN
+F 2 "A-wai_Turrets:TUBE_TRIODE" H 7220 1250 50  0001 C CNN
+F 3 "" H 6950 1650 60  0000 C CNN
+	1    6950 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:ECC83 U5
+U 2 1 58C05D94
+P 8025 1650
+F 0 "U5" H 8155 1960 50  0000 C CNN
+F 1 "ECC83" H 8375 1350 50  0000 C CNN
+F 2 "A-wai_Turrets:TUBE_TRIODE" H 8295 1250 50  0001 C CNN
+F 3 "" H 8025 1650 60  0000 C CNN
+	2    8025 1650
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R10
+U 1 1 58C073A7
+P 6850 2250
+F 0 "R10" V 6930 2250 50  0000 C CNN
+F 1 "1.5k" V 6850 2250 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 6780 2250 50  0001 C CNN
+F 3 "" H 6850 2250 50  0000 C CNN
+	1    6850 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R11
+U 1 1 58C075CD
+P 6850 2600
+F 0 "R11" V 6930 2600 50  0000 C CNN
+F 1 "91k" V 6850 2600 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 6780 2600 50  0001 C CNN
+F 3 "" H 6850 2600 50  0000 C CNN
+	1    6850 2600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R22
+U 1 1 58C0772A
+P 6850 2950
+F 0 "R22" V 6930 2950 50  0000 C CNN
+F 1 "10k" V 6850 2950 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 6780 2950 50  0001 C CNN
+F 3 "" H 6850 2950 50  0000 C CNN
+	1    6850 2950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R8
+U 1 1 58C07C41
+P 6575 1950
+F 0 "R8" V 6655 1950 50  0000 C CNN
+F 1 "1M" V 6575 1950 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 6505 1950 50  0001 C CNN
+F 3 "" H 6575 1950 50  0000 C CNN
+	1    6575 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C14
+U 1 1 58C07FD0
+P 6425 1650
+F 0 "C14" H 6450 1750 50  0000 L CNN
+F 1 "10n" H 6450 1550 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_103_400V" H 6463 1500 50  0001 C CNN
+F 3 "" H 6425 1650 50  0000 C CNN
+	1    6425 1650
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6650 1650 6575 1650
+Wire Wire Line
+	6575 1650 6575 1800
+Wire Wire Line
+	6575 2100 6575 2400
+Wire Wire Line
+	6575 2400 6850 2400
+Wire Wire Line
+	6850 2050 6850 2100
+Wire Wire Line
+	6850 2400 6850 2450
+Wire Wire Line
+	6850 2750 6850 2800
+Wire Wire Line
+	6850 3175 6850 3100
+$Comp
+L Eddie-Baby-Custom-rescue:R R30
+U 1 1 58C09282
+P 8025 1025
+F 0 "R30" V 8105 1025 50  0000 C CNN
+F 1 "100k" V 8025 1025 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 7955 1025 50  0001 C CNN
+F 3 "" H 8025 1025 50  0000 C CNN
+	1    8025 1025
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C+ #PWR033
+U 1 1 58C09AF2
+P 8025 800
+F 0 "#PWR033" H 8025 750 20  0001 C CNN
+F 1 "C+" H 8025 900 30  0000 C CNN
+F 2 "" H 8025 800 60  0000 C CNN
+F 3 "" H 8025 800 60  0000 C CNN
+	1    8025 800 
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8025 800  8025 875 
+Wire Wire Line
+	8025 1175 8025 1250
+Wire Wire Line
+	6950 1175 6950 1250
+$Comp
+L Eddie-Baby-Custom-rescue:CONN_01X01 P7
+U 1 1 58C0A3D5
+P 7525 2800
+F 0 "P7" H 7525 2900 50  0000 C CNN
+F 1 "MSTR" V 7625 2800 50  0000 C CNN
+F 2 "A-wai_Turrets:TURRET" H 7525 2800 50  0001 C CNN
+F 3 "" H 7525 2800 50  0000 C CNN
+	1    7525 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:CONN_01X01 P8
+U 1 1 58C0A87B
+P 7525 3175
+F 0 "P8" H 7525 3275 50  0000 C CNN
+F 1 "MSTR GND" V 7625 3175 50  0000 C CNN
+F 2 "A-wai_Turrets:TURRET" H 7525 3175 50  0001 C CNN
+F 3 "" H 7525 3175 50  0000 C CNN
+	1    7525 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7325 3175 6850 3175
+$Comp
+L Eddie-Baby-Custom-rescue:CP1 C15
+U 1 1 58C0B306
+P 7125 2800
+F 0 "C15" H 7150 2900 50  0000 L CNN
+F 1 "10µ/160V" H 7150 2700 50  0000 L CNN
+F 2 "A-wai_Turrets:CPA_22uF_63V" H 7125 2800 50  0001 C CNN
+F 3 "" H 7125 2800 50  0000 C CNN
+	1    7125 2800
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6850 2800 6975 2800
+Wire Wire Line
+	7275 2800 7325 2800
+$Comp
+L Eddie-Baby-Custom-rescue:R R28
+U 1 1 58C0BD68
+P 7925 2250
+F 0 "R28" V 8005 2250 50  0000 C CNN
+F 1 "1k" V 7925 2250 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 7855 2250 50  0001 C CNN
+F 3 "" H 7925 2250 50  0000 C CNN
+	1    7925 2250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR034
+U 1 1 58C0BF25
+P 7925 2800
+F 0 "#PWR034" H 7925 2800 30  0001 C CNN
+F 1 "GND" H 7925 2730 30  0001 C CNN
+F 2 "" H 7925 2800 60  0000 C CNN
+F 3 "" H 7925 2800 60  0000 C CNN
+	1    7925 2800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R33
+U 1 1 58C0C345
+P 8525 2450
+F 0 "R33" V 8605 2450 50  0000 C CNN
+F 1 "10k" V 8525 2450 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 8455 2450 50  0001 C CNN
+F 3 "" H 8525 2450 50  0000 C CNN
+	1    8525 2450
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7925 2100 7925 2050
+$Comp
+L Eddie-Baby-Custom-rescue:R R29
+U 1 1 58C0CB74
+P 7925 2600
+F 0 "R29" V 8005 2600 50  0000 C CNN
+F 1 "470R" V 7925 2600 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 7855 2600 50  0001 C CNN
+F 3 "" H 7925 2600 50  0000 C CNN
+	1    7925 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7925 2450 7925 2400
+Wire Wire Line
+	7925 2800 7925 2750
+$Comp
+L Eddie-Baby-Custom-rescue:CP1 C17
+U 1 1 58C0D440
+P 8200 2600
+F 0 "C17" H 8225 2700 50  0000 L CNN
+F 1 "1µ" H 8225 2500 50  0000 L CNN
+F 2 "A-wai_Turrets:C_M150_105_100V" H 8200 2600 50  0001 C CNN
+F 3 "" H 8200 2600 50  0000 C CNN
+	1    8200 2600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7925 2450 8200 2450
+Connection ~ 8200 2450
+$Comp
+L Eddie-Baby-Custom-rescue:CONN_01X01 P9
+U 1 1 58C0DE58
+P 8575 2750
+F 0 "P9" H 8575 2850 50  0000 C CNN
+F 1 "PRSNC" V 8675 2750 50  0000 C CNN
+F 2 "A-wai_Turrets:TURRET" H 8575 2750 50  0001 C CNN
+F 3 "" H 8575 2750 50  0000 C CNN
+	1    8575 2750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8200 2750 8375 2750
+$Comp
+L Eddie-Baby-Custom-rescue:C C19
+U 1 1 58C0E306
+P 8925 2450
+F 0 "C19" H 8950 2550 50  0000 L CNN
+F 1 "47n" H 8950 2350 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_473_400V" H 8963 2300 50  0001 C CNN
+F 3 "" H 8925 2450 50  0000 C CNN
+	1    8925 2450
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8675 2450 8775 2450
+$Comp
+L Eddie-Baby-Custom-rescue:CONN_01X01 P10
+U 1 1 58C0E621
+P 8975 2150
+F 0 "P10" H 8975 2250 50  0000 C CNN
+F 1 "DEPTH" V 9075 2150 50  0000 C CNN
+F 2 "A-wai_Turrets:TURRET" H 8975 2150 50  0001 C CNN
+F 3 "" H 8975 2150 50  0000 C CNN
+	1    8975 2150
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:CONN_01X01 P12
+U 1 1 58C0E7B8
+P 9375 2450
+F 0 "P12" H 9375 2550 50  0000 C CNN
+F 1 "NFB" V 9475 2450 50  0000 C CNN
+F 2 "A-wai_Turrets:TURRET" H 9375 2450 50  0001 C CNN
+F 3 "" H 9375 2450 50  0000 C CNN
+	1    9375 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8775 2450 8775 2150
+Wire Wire Line
+	9075 2450 9175 2450
+NoConn ~ 7725 1650
+$Comp
+L Eddie-Baby-Custom-rescue:C C20
+U 1 1 58C0FC2B
+P 9200 1250
+F 0 "C20" H 9225 1350 50  0000 L CNN
+F 1 "47n" H 9225 1150 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_473_400V" H 9238 1100 50  0001 C CNN
+F 3 "" H 9200 1250 50  0000 C CNN
+	1    9200 1250
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R38
+U 1 1 58C0FE60
+P 9475 1550
+F 0 "R38" V 9555 1550 50  0000 C CNN
+F 1 "470k" V 9475 1550 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 9405 1550 50  0001 C CNN
+F 3 "" H 9475 1550 50  0000 C CNN
+	1    9475 1550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R40
+U 1 1 58C1094C
+P 9775 1775
+F 0 "R40" V 9855 1775 50  0000 C CNN
+F 1 "1M" V 9775 1775 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 9705 1775 50  0001 C CNN
+F 3 "" H 9775 1775 50  0000 C CNN
+	1    9775 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:CP1 C22
+U 1 1 58C10AED
+P 10025 1775
+F 0 "C22" H 10050 1875 50  0000 L CNN
+F 1 "22µ" H 10050 1675 50  0000 L CNN
+F 2 "A-wai_Turrets:CPA_22uF_63V" H 10025 1775 50  0001 C CNN
+F 3 "" H 10025 1775 50  0000 C CNN
+	1    10025 1775
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8025 1250 9050 1250
+Wire Wire Line
+	9350 1250 9475 1250
+Wire Wire Line
+	9475 1400 9475 1250
+Connection ~ 9475 1250
+Wire Wire Line
+	9775 1625 9775 1550
+Wire Wire Line
+	9775 1625 10025 1625
+Wire Wire Line
+	9475 1925 9775 1925
+Wire Wire Line
+	9475 1925 9475 1700
+Connection ~ 9775 1925
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR035
+U 1 1 58C12F75
+P 9775 1975
+F 0 "#PWR035" H 9775 1975 30  0001 C CNN
+F 1 "GND" H 9775 1905 30  0001 C CNN
+F 2 "" H 9775 1975 60  0000 C CNN
+F 3 "" H 9775 1975 60  0000 C CNN
+	1    9775 1975
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	9775 1975 9775 1925
+Wire Wire Line
+	10275 1150 10175 1150
+$Comp
+L Eddie-Baby-Custom-rescue:CP1 C25
+U 1 1 58C16AE9
+P 2275 7250
+F 0 "C25" H 2300 7350 50  0000 L CNN
+F 1 "47µ/450V" H 2300 7150 50  0000 L CNN
+F 2 "A-wai_Turrets:CPA_47uF_450V" H 2275 7250 50  0001 C CNN
+F 3 "" H 2275 7250 50  0000 C CNN
+	1    2275 7250
+	1    0    0    -1  
+$EndComp
+Connection ~ 1775 7400
+$Comp
+L Eddie-Baby-Custom-rescue:CP1 C24
+U 1 1 58C17194
+P 1475 6450
+F 0 "C24" H 1500 6550 50  0000 L CNN
+F 1 "22µ/450V" H 1500 6350 50  0000 L CNN
+F 2 "A-wai_Turrets:CPA_22uF_450V" H 1475 6450 50  0001 C CNN
+F 3 "" H 1475 6450 50  0000 C CNN
+	1    1475 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R44
+U 1 1 58C1719A
+P 1725 6225
+F 0 "R44" V 1805 6225 50  0000 C CNN
+F 1 "10k" V 1725 6225 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 1655 6225 50  0001 C CNN
+F 3 "" H 1725 6225 50  0000 C CNN
+	1    1725 6225
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	1475 6225 1575 6225
+Connection ~ 1475 6225
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR036
+U 1 1 58C171AA
+P 1475 6650
+F 0 "#PWR036" H 1475 6650 30  0001 C CNN
+F 1 "GND" H 1475 6580 30  0001 C CNN
+F 2 "" H 1475 6650 60  0000 C CNN
+F 3 "" H 1475 6650 60  0000 C CNN
+	1    1475 6650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1475 6300 1475 6225
+Wire Wire Line
+	1875 6900 1875 6225
+$Comp
+L Eddie-Baby-Custom-rescue:G+ #PWR037
+U 1 1 58C18175
+P 1475 6125
+F 0 "#PWR037" H 1475 5975 50  0001 C CNN
+F 1 "G+" H 1475 6275 50  0000 C CNN
+F 2 "" H 1475 6125 50  0000 C CNN
+F 3 "" H 1475 6125 50  0000 C CNN
+	1    1475 6125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:CONN_01X01 P3
+U 1 1 574CA9EC
+P 3050 6900
+F 0 "P3" H 3050 7000 50  0000 C CNN
+F 1 "HT" V 3150 6900 50  0000 C CNN
+F 2 "A-wai_Turrets:TURRET" H 3050 6900 50  0001 C CNN
+F 3 "" H 3050 6900 50  0000 C CNN
+	1    3050 6900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R45
+U 1 1 58C1D29C
+P 2525 6900
+F 0 "R45" V 2605 6900 50  0000 C CNN
+F 1 "10k/2W" V 2525 6900 50  0000 C CNN
+F 2 "A-wai_Turrets:R_2W" V 2455 6900 50  0001 C CNN
+F 3 "" H 2525 6900 50  0000 C CNN
+	1    2525 6900
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2675 6900 2850 6900
+Text Label 2700 6900 0    60   ~ 0
+HT
+Text Label 9875 750  0    60   ~ 0
+HT
+Wire Wire Line
+	1475 6600 1475 6650
+$Comp
+L Eddie-Baby-Custom-rescue:R R?
+U 1 1 59076D09
+P 2550 1775
+F 0 "R?" V 2630 1775 50  0000 C CNN
+F 1 "68k" V 2550 1775 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 2480 1775 50  0001 C CNN
+F 3 "" H 2550 1775 50  0000 C CNN
+	1    2550 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C?
+U 1 1 59076ECD
+P 2975 1600
+F 0 "C?" H 3000 1700 50  0000 L CNN
+F 1 "250p" H 3000 1500 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_473_400V" H 3013 1450 50  0001 C CNN
+F 3 "" H 2975 1600 50  0000 C CNN
+	1    2975 1600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C?
+U 1 1 5907704A
+P 2975 1950
+F 0 "C?" H 3000 2050 50  0000 L CNN
+F 1 "100n" H 3000 1850 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_473_400V" H 3013 1800 50  0001 C CNN
+F 3 "" H 2975 1950 50  0000 C CNN
+	1    2975 1950
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C?
+U 1 1 590771AA
+P 2700 2300
+F 0 "C?" H 2725 2400 50  0000 L CNN
+F 1 "47n" H 2725 2200 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_473_400V" H 2738 2150 50  0001 C CNN
+F 3 "" H 2700 2300 50  0000 C CNN
+	1    2700 2300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R?
+U 1 1 59077672
+P 3275 2450
+F 0 "R?" V 3355 2450 50  0000 C CNN
+F 1 "10k" V 3275 2450 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 3205 2450 50  0001 C CNN
+F 3 "" H 3275 2450 50  0000 C CNN
+	1    3275 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:POT RV?
+U 1 1 590778BA
+P 3275 2100
+F 0 "RV?" V 3175 2100 50  0000 C CNN
+F 1 "250k-A" V 3275 2100 50  0000 C CNN
+F 2 "" H 3275 2100 50  0000 C CNN
+F 3 "" H 3275 2100 50  0000 C CNN
+	1    3275 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:POT RV?
+U 1 1 59077A76
+P 3275 1750
+F 0 "RV?" V 3175 1750 50  0000 C CNN
+F 1 "250k-B" V 3275 1750 50  0000 C CNN
+F 2 "" H 3275 1750 50  0000 C CNN
+F 3 "" H 3275 1750 50  0000 C CNN
+	1    3275 1750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:POT RV?
+U 1 1 59077BEE
+P 3025 2450
+F 0 "RV?" V 2925 2450 50  0000 C CNN
+F 1 "100k-A" V 3025 2450 50  0000 C CNN
+F 2 "" H 3025 2450 50  0000 C CNN
+F 3 "" H 3025 2450 50  0000 C CNN
+	1    3025 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R?
+U 1 1 59077EC2
+P 4125 1900
+F 0 "R?" V 4205 1900 50  0000 C CNN
+F 1 "10k" V 4125 1900 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 4055 1900 50  0001 C CNN
+F 3 "" H 4125 1900 50  0000 C CNN
+	1    4125 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:POT RV?
+U 1 1 59078072
+P 3600 1900
+F 0 "RV?" V 3500 1900 50  0000 C CNN
+F 1 "1M-A" V 3600 1900 50  0000 C CNN
+F 2 "" H 3600 1900 50  0000 C CNN
+F 3 "" H 3600 1900 50  0000 C CNN
+	1    3600 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C?
+U 1 1 59078730
+P 3800 1750
+F 0 "C?" H 3825 1850 50  0000 L CNN
+F 1 "22p" H 3825 1650 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_473_400V" H 3838 1600 50  0001 C CNN
+F 3 "" H 3800 1750 50  0000 C CNN
+	1    3800 1750
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3125 1950 3275 1950
+Wire Wire Line
+	3425 1950 3425 2100
+Wire Wire Line
+	3275 1950 3275 1900
+Wire Wire Line
+	3425 1750 3600 1750
+Connection ~ 3600 1750
+Wire Wire Line
+	3750 1900 3950 1900
+Wire Wire Line
+	3950 1750 3950 1900
+Connection ~ 3950 1900
+Wire Wire Line
+	4275 1900 4325 1900
+Connection ~ 3275 1950
+Wire Wire Line
+	2850 2300 3025 2300
+Wire Wire Line
+	3175 2300 3175 2450
+Connection ~ 3025 2300
+Wire Wire Line
+	3125 1600 3275 1600
+Wire Wire Line
+	2000 1600 2550 1600
+Wire Wire Line
+	2550 1600 2550 1625
+Wire Wire Line
+	2550 1925 2550 1950
+Wire Wire Line
+	2550 1950 2825 1950
+Connection ~ 2550 1950
+Connection ~ 2550 1600
+Wire Wire Line
+	3025 2900 3025 2600
+Wire Wire Line
+	3275 2900 3275 2600
+Connection ~ 3025 2900
+Wire Wire Line
+	3600 2900 3600 2050
+Connection ~ 3275 2900
+$Comp
+L Eddie-Baby-Custom-rescue:POT RV?
+U 1 1 5907DEAD
+P 2500 4850
+F 0 "RV?" V 2400 4850 50  0000 C CNN
+F 1 "1M-A" V 2500 4850 50  0000 C CNN
+F 2 "" H 2500 4850 50  0000 C CNN
+F 3 "" H 2500 4850 50  0000 C CNN
+	1    2500 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R?
+U 1 1 5907E3EE
+P 2900 4700
+F 0 "R?" V 2980 4700 50  0000 C CNN
+F 1 "1M" V 2900 4700 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 2830 4700 50  0001 C CNN
+F 3 "" H 2900 4700 50  0000 C CNN
+	1    2900 4700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C?
+U 1 1 5907E56E
+P 2700 4700
+F 0 "C?" H 2725 4800 50  0000 L CNN
+F 1 "1n" H 2725 4600 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_472_400V" H 2738 4550 50  0001 C CNN
+F 3 "" H 2700 4700 50  0000 C CNN
+	1    2700 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2700 4500 2700 4550
+Wire Wire Line
+	2650 4850 2700 4850
+Connection ~ 2700 4850
+$Comp
+L Eddie-Baby-Custom-rescue:R R?
+U 1 1 5907F71E
+P 2300 4850
+F 0 "R?" V 2380 4850 50  0000 C CNN
+F 1 "1M" V 2300 4850 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 2230 4850 50  0001 C CNN
+F 3 "" H 2300 4850 50  0000 C CNN
+	1    2300 4850
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	2500 4700 2300 4700
+$Comp
+L Eddie-Baby-Custom-rescue:R R?
+U 1 1 5907FDE9
+P 3175 4850
+F 0 "R?" V 3255 4850 50  0000 C CNN
+F 1 "470k" V 3175 4850 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 3105 4850 50  0001 C CNN
+F 3 "" H 3175 4850 50  0000 C CNN
+	1    3175 4850
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	3325 4850 3375 4850
+Wire Wire Line
+	2300 5000 2500 5000
+Wire Wire Line
+	2500 5000 2500 5450
+Connection ~ 2900 4850
+Wire Wire Line
+	2900 4500 2900 4550
+Connection ~ 2700 4500
+$Comp
+L Eddie-Baby-Custom-rescue:R R?
+U 1 1 59082F12
+P 9800 4625
+F 0 "R?" V 9880 4625 50  0000 C CNN
+F 1 "47k" V 9800 4625 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 9730 4625 50  0001 C CNN
+F 3 "" H 9800 4625 50  0000 C CNN
+	1    9800 4625
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C?
+U 1 1 59082F18
+P 10050 4450
+F 0 "C?" H 10075 4550 50  0000 L CNN
+F 1 "470p" H 10075 4350 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_473_400V" H 10088 4300 50  0001 C CNN
+F 3 "" H 10050 4450 50  0000 C CNN
+	1    10050 4450
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C?
+U 1 1 59082F1E
+P 10050 4800
+F 0 "C?" H 10075 4900 50  0000 L CNN
+F 1 "22n" H 10075 4700 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_473_400V" H 10088 4650 50  0001 C CNN
+F 3 "" H 10050 4800 50  0000 C CNN
+	1    10050 4800
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:C C?
+U 1 1 59082F24
+P 10000 5300
+F 0 "C?" H 10025 5400 50  0000 L CNN
+F 1 "22n" H 10025 5200 50  0000 L CNN
+F 2 "A-wai_Turrets:C_225P_473_400V" H 10038 5150 50  0001 C CNN
+F 3 "" H 10000 5300 50  0000 C CNN
+	1    10000 5300
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:R R?
+U 1 1 59082F2A
+P 10550 5300
+F 0 "R?" V 10630 5300 50  0000 C CNN
+F 1 "47k" V 10550 5300 50  0000 C CNN
+F 2 "A-wai_Turrets:R_0.5W" V 10480 5300 50  0001 C CNN
+F 3 "" H 10550 5300 50  0000 C CNN
+	1    10550 5300
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:POT RV?
+U 1 1 59082F30
+P 10350 4950
+F 0 "RV?" V 10250 4950 50  0000 C CNN
+F 1 "1M-A" V 10350 4950 50  0000 C CNN
+F 2 "" H 10350 4950 50  0000 C CNN
+F 3 "" H 10350 4950 50  0000 C CNN
+	1    10350 4950
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:POT RV?
+U 1 1 59082F36
+P 10350 4600
+F 0 "RV?" V 10250 4600 50  0000 C CNN
+F 1 "250k-B" V 10350 4600 50  0000 C CNN
+F 2 "" H 10350 4600 50  0000 C CNN
+F 3 "" H 10350 4600 50  0000 C CNN
+	1    10350 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:POT RV?
+U 1 1 59082F3C
+P 10350 5300
+F 0 "RV?" V 10250 5300 50  0000 C CNN
+F 1 "50k-B" V 10350 5300 50  0000 C CNN
+F 2 "" H 10350 5300 50  0000 C CNN
+F 3 "" H 10350 5300 50  0000 C CNN
+	1    10350 5300
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Eddie-Baby-Custom-rescue:POT RV?
+U 1 1 59082F48
+P 10725 4750
+F 0 "RV?" V 10625 4750 50  0000 C CNN
+F 1 "500k-A" V 10725 4750 50  0000 C CNN
+F 2 "" H 10725 4750 50  0000 C CNN
+F 3 "" H 10725 4750 50  0000 C CNN
+	1    10725 4750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10200 4800 10350 4800
+Wire Wire Line
+	10500 4800 10500 4950
+Wire Wire Line
+	10350 4800 10350 4750
+Wire Wire Line
+	10500 4600 10725 4600
+Connection ~ 10350 4800
+Wire Wire Line
+	10200 4450 10350 4450
+Wire Wire Line
+	10350 5150 10350 5100
+Wire Wire Line
+	10350 5150 10550 5150
+Wire Wire Line
+	10350 5450 10550 5450
+Wire Wire Line
+	10150 5300 10200 5300
+Wire Wire Line
+	9800 4450 9800 4475
+Wire Wire Line
+	9800 4775 9800 4800
+Wire Wire Line
+	9800 4800 9900 4800
+Wire Wire Line
+	9800 5300 9850 5300
+Connection ~ 9800 4800
+Wire Wire Line
+	10725 5450 10725 4900
+Connection ~ 10550 5450
+Connection ~ 9800 4450
+Wire Wire Line
+	10550 5750 10550 5450
+$Comp
+L Eddie-Baby-Custom-rescue:GND #PWR?
+U 1 1 590892C9
+P 6850 3175
+F 0 "#PWR?" H 6850 3175 30  0001 C CNN
+F 1 "GND" H 6850 3105 30  0001 C CNN
+F 2 "" H 6850 3175 60  0000 C CNN
+F 3 "" H 6850 3175 60  0000 C CNN
+	1    6850 3175
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3375 4850 3375 3550
+Wire Wire Line
+	3375 3550 3925 3550
+Wire Wire Line
+	4325 1900 4325 3150
+Wire Wire Line
+	4325 3150 3925 3150
+Wire Wire Line
+	5775 3550 10875 3550
+Wire Wire Line
+	10875 3550 10875 4750
+Wire Wire Line
+	3275 2250 3275 2300
+Wire Wire Line
+	4775 4400 4775 4450
+Wire Wire Line
+	3675 4400 3675 4450
+Wire Wire Line
+	5375 4850 5375 4400
+Wire Wire Line
+	1600 4200 1600 4250
+Wire Wire Line
+	1700 5450 2500 5450
+Wire Wire Line
+	4625 1450 4625 1500
+Wire Wire Line
+	5325 1450 5775 1450
+Wire Wire Line
+	6175 1650 6275 1650
+Wire Wire Line
+	5575 4850 6075 4850
+Wire Wire Line
+	4375 6925 4425 6925
+Wire Wire Line
+	4775 6925 4825 6925
+Wire Wire Line
+	775  6900 775  7100
+Wire Wire Line
+	1275 6900 1375 6900
+Wire Wire Line
+	1275 6900 1275 7100
+Wire Wire Line
+	1775 6900 1875 6900
+Wire Wire Line
+	1775 6900 1775 7100
+Wire Wire Line
+	2275 6900 2375 6900
+Wire Wire Line
+	2275 6900 2275 7100
+Wire Wire Line
+	1275 7400 1775 7400
+Wire Wire Line
+	4325 4850 4325 5050
+Wire Wire Line
+	6850 4850 6850 4825
+Wire Wire Line
+	8100 4450 8100 4850
+Wire Wire Line
+	8100 4850 8100 5000
+Wire Wire Line
+	9575 4450 9800 4450
+Wire Wire Line
+	9575 5750 10550 5750
+Wire Wire Line
+	8200 2450 8375 2450
+Wire Wire Line
+	9475 1250 9575 1250
+Wire Wire Line
+	9775 1925 10025 1925
+Wire Wire Line
+	1775 7400 2275 7400
+Wire Wire Line
+	1475 6225 1475 6125
+Wire Wire Line
+	3600 1750 3650 1750
+Wire Wire Line
+	3950 1900 3975 1900
+Wire Wire Line
+	3275 1950 3425 1950
+Wire Wire Line
+	3025 2300 3175 2300
+Wire Wire Line
+	2550 1950 2550 2300
+Wire Wire Line
+	2550 1600 2825 1600
+Wire Wire Line
+	3025 2900 3275 2900
+Wire Wire Line
+	3275 2900 3600 2900
+Wire Wire Line
+	2700 4850 2900 4850
+Wire Wire Line
+	2900 4850 3025 4850
+Wire Wire Line
+	2700 4500 2900 4500
+Wire Wire Line
+	10350 4800 10500 4800
+Wire Wire Line
+	9800 4800 9800 5300
+Wire Wire Line
+	10550 5450 10725 5450
+Wire Wire Line
+	9800 4450 9900 4450
+$EndSCHEMATC
